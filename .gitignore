@@ -7,7 +7,7 @@ themes/classic/views/
 composer.lock
 
 # phpstorm project files
-#.idea
+.idea
 
 # netbeans project files
 nbproject
