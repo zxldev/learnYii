@@ -93,4 +93,13 @@ class SiteController extends Controller
     {
         return $this->render('about');
     }
+
+    /**
+     * First test Contoller
+     * @param string $message
+     * @return string
+     */
+    public function actionSay($message = 'hello'){
+        return $this->render('say',['message'=>$message]);
+    }
 }
